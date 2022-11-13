@@ -9,7 +9,7 @@ public class UnitTest1
     [Fact]
     public void Test1()
     {
-        var returnValue = controller.GetWeatherById("Mild");
-        Assert.Equal("Mild", returnValue.Summary);
+        var returnValue = controller.GetWeatherById("Bracing");
+        Assert.Equal("Bracing", returnValue.Summary);
     }
 }
